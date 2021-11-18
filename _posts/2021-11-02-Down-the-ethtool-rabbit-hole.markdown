@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Work in progress"
+published: false
+---
+
 This is a short story of one of those problems where you scratch your head, but
 curiosity does not allow you to leave questions unanswered so you dig deeper
 and deeper until the revelation comes. In this case it was also an necessity
