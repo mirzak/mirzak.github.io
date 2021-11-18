@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Work in progress"
+---
+
 I am in the process of migrating my blog [mkrak.org](https://mkrak.org/)
 (Wordpress) to a Jekyll+Github based setup.
 
