@@ -1,7 +1,7 @@
 title: Embedded Linux and beyond
 email: mirza@mkrak.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog about opensource software, Internet of Things (IoT), embedded Linux
+  Blog about open-source software, Internet of Things (IoT), embedded Linux
   development and more.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
