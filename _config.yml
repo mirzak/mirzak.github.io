@@ -12,3 +12,4 @@ github_username:  mirzak
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo
