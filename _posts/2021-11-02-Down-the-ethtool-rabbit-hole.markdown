@@ -1,7 +1,5 @@
 ---
 layout: post
-title:  "Work in progress"
-published: false
 ---
 
 This is a short story of one of those problems where you scratch your head, but
@@ -207,9 +205,8 @@ I think this post demonstrates the beauty of open source and the ability to
 dig trough large software stacks to troubleshoot tricky problems.
 
 It also demonstrates some of the usability challenges we are faced in the Linux
-world. I make my living solving problems like these (keep them coming), but
-an average Linux user would probably struggle and lets remind our self that
-user facing error was:
+world. I make my living solving problems like these, but an average Linux user
+would probably struggle and lets remind our self that user facing error was:
 
 ```bash
 systemd-udevd[175]: ethtool: Cannot get device settings for eth0 : Invalid argument
@@ -219,22 +216,3 @@ But an average Linux user probably would not mess with advertised link modes of
 the Eternet PHY, so I guess it is all good in the end.
 
 Hopefully it was an enjoyable read at least.
-
-Some might wonder how I solved this in the end, using a systemd service:
-
-```bash
-[Unit]
-Description=Ethtool configuration to limit to 100Mb speed for the CM4 MAC/PHY
-After=network-online.target
-Wants=network-online.target
-
-[Service]
-ExecStart=/usr/sbin/ethtool -s eth0 advertise 0x00F
-Type=oneshot
-
-[Install]
-WantedBy=multi-user.target
-
-```
-
-If you know of a better way, please let me know.
