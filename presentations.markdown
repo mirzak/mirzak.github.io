@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Presentations
-permalink: /resentations/
+permalink: /presentations/
 ---
 
 <a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/linuxfoundation/40085054344/" title="2846"><img src="https://live.staticflickr.com/4773/40085054344_99ae58ac34.jpg" width="500" height="333" alt="2846"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
