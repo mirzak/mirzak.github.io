@@ -6,18 +6,26 @@ permalink: /about/
 
 Welcome to the page where I describe my self and my intentions with this site.
 
-I am an embedded Linux developer and I normally work with:
+I am an experienced technologist with deep expertise in designing and developing Linux-based connected embedded systems,
+delivering projects across industries such as automotive, manufacturing, and
+biotech.
 
-- Linux kernel development (device drivers and board support)
-- Boot-loaders (U-boot, Barebox, GRUB and more)
-- Build systems (Yocto/OE-core, Buildroot)
-- Hardware bring-up
-- Software updates
+I thrive at the intersection of hardware and software, building secure,
+scalable, and efficient systems that power innovative products. My expertise
+spans the full development lifecycle—from architecture and software development
+to cloud integration and deployment—ensuring seamless connectivity and
+performance.
 
-Above is often referred to as “Board Support Package” development. I would
-probably stretch my scope to middle-ware application development but no further.
-I enjoy working close to hardware and my desk usually has a pile of cables and
-various boards underneath the pile.
+In addition to embedded systems, I have expertise in cloud-native technologies
+and over-the-air (OTA) software update frameworks, enabling seamless, secure,
+and reliable software delivery across distributed devices. I specialize in
+building resilient, scalable solutions that bridge embedded and cloud systems,
+unlocking new capabilities in IoT, edge computing, and connected infrastructure.
+
+Beyond technical execution, I enjoy mentoring teams, fostering collaboration,
+and driving best practices in software engineering. I excel at tackling complex
+challenges, optimizing system performance, and staying up date with emerging
+trends in embedded software, cloud computing, and distributed systems.
 
 I am passionate about open-source as this is a big part of my everyday work
 life and I am proud to be involved and have contributed to various projects and
@@ -33,7 +41,7 @@ then welcome.
 I will mostly focus on writing three types of posts:
 
 - Tutorials (tips and tricks)
-- Evaluations of different open-source projects/tools for embedded Linux
+- Evaluations of different open-source projects/tools
 - Misc open-source related topics
 
 If you have any interesting topics that you would like me to cover or research
